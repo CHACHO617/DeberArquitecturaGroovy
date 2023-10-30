@@ -2,7 +2,12 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        String variable1 = HolaGroovy.holaDeGroovy();
-        System.out.println(variable1);
+        int i = 0;
+        while (i < 10000000){
+            String variable1 = Hola.loader();
+            System.out.println(variable1);
+            i++;
+        }
+
     }
 }

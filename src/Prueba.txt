@@ -1,0 +1,8 @@
+class Prueba
+{
+    String doIt()
+    {
+    String saludo = "Ho"
+    return saludo;
+    }
+}
